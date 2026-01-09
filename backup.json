@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-01-09T13:48:47.713Z",
+  "database": "offline_music",
+  "totalRecords": 8,
+  "contacts": [
+    {
+      "_id": "6960fbe8cdc88b8080981d05",
+      "name": "HP User",
+      "email": "hp@test.com",
+      "message": "Testing from HP desktop",
+      "date": "2026-01-09T13:00:24.518Z",
+      "__v": 0
+    },
+    {
+      "_id": "6960ff39cdc88b8080981d08",
+      "name": "Ali",
+      "email": "ali@test.com",
+      "message": "App accha hai",
+      "date": "2026-01-09T13:14:33.312Z",
+      "__v": 0
+    },
+    {
+      "_id": "696103e9d642219e3ec4f231",
+      "name": "malaika",
+      "email": "malaika@gmail.com",
+      "message": "App bohot accha hai",
+      "phone": "03001234567",
+      "subject": "Feedback",
+      "status": "pending",
+      "date": "2026-01-09T13:34:33.535Z",
+      "__v": 0
+    },
+    {
+      "_id": "696103f8d642219e3ec4f233",
+      "name": "Sara",
+      "email": "sara@hotmail.com",
+      "message": "Music quality acchi hai",
+      "phone": "03111222333",
+      "subject": "Appreciation",
+      "status": "pending",
+      "date": "2026-01-09T13:34:48.879Z",
+      "__v": 0
+    }
+  ],
+  "subscribers": [
+    {
+      "_id": "69610403d642219e3ec4f235",
+      "email": "user1@gmail.com",
+      "name": "User One",
+      "isActive": true,
+      "subscribedAt": "2026-01-09T13:34:59.743Z",
+      "__v": 0
+    },
+    {
+      "_id": "6961040dd642219e3ec4f237",
+      "email": "user2@yahoo.com",
+      "name": "User Two",
+      "isActive": true,
+      "subscribedAt": "2026-01-09T13:35:09.116Z",
+      "__v": 0
+    }
+  ],
+  "analytics": [
+    {
+      "_id": "69610416d642219e3ec4f239",
+      "source": "play_store",
+      "device": "android",
+      "country": "PK",
+      "downloadDate": "2026-01-09T13:35:18.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "6961041dd642219e3ec4f23b",
+      "source": "website",
+      "device": "ios",
+      "country": "US",
+      "downloadDate": "2026-01-09T13:35:25.070Z",
+      "__v": 0
+    }
+  ]
+}
