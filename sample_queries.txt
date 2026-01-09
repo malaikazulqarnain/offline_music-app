@@ -1,0 +1,29 @@
+// SAMPLE MONGODB QUERIES:
+
+// 1. Get all contacts
+db.contacts.find({})
+
+// 2. Get pending contacts
+db.contacts.find({ status: 'pending' })
+
+// 3. Get contacts by email
+db.contacts.find({ email: 'ali@gmail.com' })
+
+// 4. Get active subscribers
+db.subscribers.find({ isActive: true })
+
+// 5. Get downloads by source
+db.analytics.find({ source: 'play_store' })
+
+// 6. Count total downloads
+db.analytics.countDocuments({})
+
+// 7. Get today's contacts
+db.contacts.find({ 
+  date: { $gte: new Date('2024-01-15') } 
+})
+
+// 8. Search by name (case insensitive)
+db.contacts.find({ 
+  name: { $regex: 'ali', $options: 'i' } 
+})
